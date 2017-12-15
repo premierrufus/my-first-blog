@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d68b4c58-ff4f-4419-969c-7fefc4f43f37" name="Default" comment="added basic body structure">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/28b1d8c4-dd64-40d4-a6e8-eea12e563ade.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/28b1d8c4-dd64-40d4-a6e8-eea12e563ade/storage_v2/_src_/schema/main.uQUzAA.meta" />
+    <list default="true" id="d68b4c58-ff4f-4419-969c-7fefc4f43f37" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/post_list.html" afterPath="$PROJECT_DIR$/templates/blog/post_list.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -267,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513302167396</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added basic body structure">
+      <created>1513303407722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1513303407723</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
