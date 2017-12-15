@@ -1,18 +1,13 @@
-<html>
-    <head>
-        <title>Gabriel's blog</title>
-    </head>
-    <body>
-        <div>
-            <h1><a href="/">Gabriel's Blog</a></h1>
-        </div>
+{% extends 'bulma/base.html' %}
 
-        {% for post in posts %}
+{% block title %}Gabriel's blog{% endblock %}
+
+{% block content %}
+    {% for post in posts %}
             <div>
                 <p>published: {{ post.published_date }}</p>
                 <h1><a href="">{{ post.title }}</a></h1>
-                <p>{{ post.text|linebreaksbr }}</p>
+                <p>{{ post.text|lin }}</p>
             </div>
         {% endfor %}
-    </body>
-</html>
+{% endblock content %}
