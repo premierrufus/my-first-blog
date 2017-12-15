@@ -9,14 +9,13 @@
   </head>
   <body>
   <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
-    </div>
+      {%for post in posts%}
+        <div class="content">
+            <h1><a href="">{{ post.title }}</a></h1>
+            <p>published: {{ post.published_date }}</p>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+      {% endfor %}
   </section>
   </body>
 </html>
